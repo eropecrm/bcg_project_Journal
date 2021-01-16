@@ -3,7 +3,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-# SKTelecom 매출정보 크롤링 ###
+# SKTelecom 2020년도 매출정보 크롤링 ###
 rq_skt = requests.get(
     "http://dart.fss.or.kr//report/viewer.do?rcpNo=20200814002234&dcmNo=7447875&eleId=10&offset=238426&length=186047&dtd=dart3.xsd")
 result_skt = rq_skt .content
